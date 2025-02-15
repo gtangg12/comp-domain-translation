@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenefactor"
+version = "0.0.1"
+description = "Compositional Domain Translation"
+readme = "README.md"
+requires-python = ">=3.10.0"
+classifiers = [
+    "Programming Language :: Python",
+]
+dependencies = [
+    "matplotlib",
+    "natsort",
+    "ninja",
+    "numpy==1.26.4",
+    "omegaconf",
+    "openai-clip",
+    "opencv-python",
+    "torch",
+    "torchvision",
+    "torchtyping",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+
+[project.scripts]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["compdomain"]
