@@ -24,8 +24,7 @@ dependencies = [
     "opencv-python",
     "transformers",
     "torch",
-    "torchvision",
-    "torchtyping",
+    "torchvision",å
     "tqdm",
 ]
 
