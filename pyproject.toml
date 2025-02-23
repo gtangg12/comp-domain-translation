@@ -12,6 +12,9 @@ classifiers = [
     "Programming Language :: Python",
 ]
 dependencies = [
+    "accelerate",
+    "diffusers",
+    "jaxtyping",
     "matplotlib",
     "natsort",
     "ninja",
@@ -19,6 +22,7 @@ dependencies = [
     "omegaconf",
     "openai-clip",
     "opencv-python",
+    "transformers",
     "torch",
     "torchvision",
     "torchtyping",

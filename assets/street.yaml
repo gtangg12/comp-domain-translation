@@ -1,0 +1,5 @@
+prompt: photo of a suburbian street from the viewpoint of a car
+source_prompt: ", sunny, bright, day, visible, clear"
+#target_prompt1: ", rainy, dark, wet, puddles, slippery, foggy, misty"
+target_prompt1: ", night, dark, bad visibility, pitch black, dim"
+target_prompt2: ", winter, snow, cold, icy, dark, frozen"
